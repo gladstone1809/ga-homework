@@ -4,7 +4,127 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.top {
+    background: -webkit-linear-gradient(#1c5380, #06365f);
+    min-height: 236px;
+    z-index: -2;
+}
+
+.bottom {
+    display: block;
+    background: -webkit-linear-gradient(#E6e6e6, white);
+    min-height: 236px;
+    z-index: -2;
+}
+
+.container {
+  position: relative;
+  top: -170px;
+  left: 5%;
+}
+
+.content {
+  position: absolute;
+  display: inline-block;
+  width: 450px;
+  height: 284px;
+  left: 420px;
+  top: -120px;
+  z-index: 2;
+}
+
+.instagram {
+  position: absolute;
+  display: inline-block;
+  left: 0px;
+  top: -90px;  
+}
+
+.button {
+    display: inline-block;
+    background: -webkit-linear-gradient(#1c5380, #06365f);
+    padding: 10px 14px;
+    border-radius: 3px;
+    top: 8px;
+    position: absolute;
+    left: auto;
+    right: -180px;
+    color: white;
+    outline:none; 
+    border:none; 
+}
+
+.frame {
+  position: absolute;
+  display: inline-block;
+  left: 390px;
+  top: -130px;
+}
+
+.android {
+  position: absolute;
+  display: inline-block;
+  left: 450px;
+  top: 220px;
+}
+
+.apple {
+  position: absolute;
+  display: inline-block;
+  left: 200px;
+  top: 0px;
+}
+
+.headline {
+  display: inline-block;
+  width: 310px;
+  color: #06365f;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.right {
+  display: inline-block;
+  left: 50px;
+  padding: 0;
+  position: absolute;
+  top: -220px;
+}
+
+.list {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+.copyright {
+  display: inline-block;
+  color: #CCC;
+  position: absolute;
+  text-transform: uppercase;
+   font-weight: bold;
+   top: 365px;
+  left: 850px;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  text-decoration: none;
+}
+
+
+ul {
+   list-style-type: none;
+   text-transform: uppercase;
+   font-weight: bold;
+  color: #06365f;
+  display: inline-block;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+
+a {
+  font-weight: bold;
 }
